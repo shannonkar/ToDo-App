@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <div class="container">
-      <ToDo />
+      <Todos />
     </div>
 
   </div>
 </template>
 
 <script>
-import ToDo from './components/ToDo.vue'
+import Todos from './components/Todos.vue'
 
 export default {
   name: 'App',
   components: {
-    ToDo
+    Todos,
   }
 }
 </script>
