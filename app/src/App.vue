@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    <div class="container">
+      <ToDo />
+    </div>
 
-    <ToDo />
   </div>
 </template>
 
